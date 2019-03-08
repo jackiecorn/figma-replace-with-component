@@ -1,0 +1,9 @@
+{
+	"id": "replace-with-component",
+	"name": "Replace with Component",
+	"author": "Jackie Chui",
+	"description": "Replace selections with a component.",
+	"instructions": "Right click on one or more objects and select 'Replace with Component'.",
+	"images": ["screenshots/screenshot1.jpg", "screenshots/screenshot2.jpg"],
+	"js": ["app.js"]
+}
