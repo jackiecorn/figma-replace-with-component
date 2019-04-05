@@ -14,7 +14,7 @@ const replaceWithComponent = async () => {
 		App.triggerAction('delete-selection');
 	}
 	figmaPlus.scene.selection = newNodes;
-	const instanceDropdown = document.querySelector('div[class*="instance_panel--symbolSelect--"]');
+	const instanceDropdown = document.querySelector('div[class*="instance_panel__REFRESH--symbolSelect--"]');
 	App._dispatch({
 		type: 'SHOW_DROPDOWN',
 		payload: {
