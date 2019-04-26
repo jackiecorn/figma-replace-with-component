@@ -12,7 +12,7 @@ const replace = async () => {
 		App.triggerAction('delete-selection');
 	}
 	figmaPlus.currentPage.selection = newNodes;
-	const instanceDropdown = document.querySelector('div[class*="instance_panel__REFRESH--symbolSelect--"]');
+	const instanceDropdown = document.querySelector('div[class*="instance_panel--symbolSelect--"]');
 	App._dispatch({
 		type: 'SHOW_DROPDOWN',
 		payload: {
@@ -40,7 +40,7 @@ const replaceAndKeepSize = async () => {
 		App.triggerAction('delete-selection');
 	}
 	figmaPlus.currentPage.selection = newNodes;
-	const instanceDropdown = document.querySelector('div[class*="instance_panel__REFRESH--symbolSelect--"]');
+	const instanceDropdown = document.querySelector('div[class*="instance_panel--symbolSelect--"]');
 	App._dispatch({
 		type: 'SHOW_DROPDOWN',
 		payload: {

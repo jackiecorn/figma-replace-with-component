@@ -3,7 +3,7 @@
 	"name": "Replace with Component",
 	"author": "Jackie Chui",
 	"description": "Replace selections with a component.",
-	"instructions": "Right click on one or more objects and select 'Replace with Component'.",
-	"images": ["screenshots/screenshot1.jpg", "screenshots/screenshot2.jpg"],
+	"instructions": "Right click on one or more objects and select 'Replace with Component', then select a component from the Instance menu on the property pane. You can choose to replace with or without keeping the original layer's size.",
+	"images": ["screenshots/screenshot1.png", "screenshots/screenshot2.png"],
 	"js": ["app.js"]
 }
